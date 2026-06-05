@@ -23,7 +23,7 @@
 ### **Diapositiva 3: La Propuesta de Microsoft Purview**
 
 * **Título de la Diapositiva:** Microsoft Purview: Tres Pilares en una Plataforma Única  
-* **Diseño Visual Sugerido:** Un diagrama de tres columnas verticales unificadas bajo un mismo techo que representa la "Plataforma Purview Portal".  
+
 * **Contenido Clave:**  
   * **Gobernanza de Datos (Data Governance):** Habilita el descubrimiento y el entendimiento del contexto comercial e histórico de los datos.6  
   * **Seguridad de Datos (Data Security):** Protege los datos confidenciales de forma activa en tránsito, en reposo y en uso.  
@@ -34,7 +34,7 @@
 ### **Diapositiva 4: Pilar 1 \- Gobernanza Técnica y de Negocio**
 
 * **Título de la Diapositiva:** Arquitectura del Gobierno de Datos: Data Map vs. Unified Catalog  
-* **Diseño Visual Sugerido:** Diagrama en capas. En la base se ubica el **Data Map** (conectado a bases de datos, nubes y APIs).8 En la parte superior se sitúa el **Unified Catalog** mostrando conceptos como Glosarios y "Productos de Datos".  
+
 * **Contenido Clave:**  
   * **Data Map (La Capa Física):** Escanea de forma automática los activos de datos corporativos, extrayendo metadatos técnicos y mapeando el linaje de datos sin copiar el contenido real.8  
   * **Unified Catalog (La Capa de Negocio):** Traduce los activos físicos en "Productos de Datos" comprensibles y accesibles para los usuarios empresariales bajo demanda.  
@@ -45,7 +45,7 @@
 ### **Diapositiva 5: Zoom Técnico \- Elasticidad y Cálculo de Capacidad (CUs)**
 
 * **Título de la Diapositiva:** Rendimiento y Costes del Data Map  
-* **Diseño Visual Sugerido:** Gráfica lineal que muestre un pico de demanda en operaciones por segundo y almacenamiento de metadatos, correlacionando el escalado elástico con el consumo de unidades de capacidad (CUs).9 Incluir de forma destacada la fórmula matemática de asignación.  
+
 * **Contenido Clave:**  
   * **Escalado Dinámico:** El Data Map se factura mediante un modelo de pago por uso medido en Capacity Units (CU).  
   * **Fórmula de Asignación por Hora:**  
@@ -58,7 +58,7 @@
 ### **Diapositiva 6: Pilar 2 \- Seguridad de Datos (Data Security)**
 
 * **Título de la Diapositiva:** Seguridad Inteligente: Information Protection y DSPM  
-* **Diseño Visual Sugerido:** Icono de un candado digital inteligente del cual fluyen tres engranajes funcionales: 1\. Identificación, 2\. Cifrado persistente, y 3\. Control de acceso en destino.  
+
 * **Contenido Clave:**  
   * **Sensitivity Labels (Etiquetas de Sensibilidad):** Clasificación jerárquica de la información (p. ej., Público, Confidencial) aplicada automáticamente o sugerida a los usuarios.4  
   * **Cifrado Persistente:** El cifrado de seguridad se inyecta directamente dentro de los metadatos del archivo. La protección viaja con el documento incluso si se comparte fuera de los repositorios corporativos.4  
@@ -69,7 +69,7 @@
 ### **Diapositiva 7: Protección de Datos frente a la IA Generativa**
 
 * **Título de la Diapositiva:** Mitigación de Riesgos en la Era de Copilot e IA de Terceros  
-* **Diseño Visual Sugerido:** Ilustración que muestre a un usuario interactuando con herramientas de IA. Un semáforo verde permite el flujo seguro hacia aplicaciones corporativas autorizadas, mientras que un semáforo rojo bloquea el copiado de información sensible en portales públicos.  
+
 * **Contenido Clave:**  
   * **Control de Fugas de Información en IA:** Purview evita de forma proactiva que información clasificada como confidencial sea copiada o expuesta en motores de IA generativa públicos de terceros (como ChatGPT web).  
   * **Gobernanza de Datos para Copilot:** Garantiza que los modelos de IA corporativos (como Microsoft 365 Copilot) solo tengan acceso a datos que el usuario solicitante tiene autorización explícita para ver, evitando la sobrecompartición accidental.  
@@ -80,7 +80,7 @@
 ### **Diapositiva 8: Pilar 3 \- Cumplimiento y Gestión del Riesgo**
 
 * **Título de la Diapositiva:** Minimización de Riesgos Regulatorios y Compliance Manager  
-* **Diseño Visual Sugerido:** Panel visual que imite un velocímetro o indicador de "Puntuación de Cumplimiento" (Compliance Score) frente a múltiples estándares regulatorios internacionales.  
+
 * **Contenido Clave:**  
   * **Compliance Manager:** Evaluación continua del estado tecnológico frente a más de 350 normativas, como GDPR, ISO 27001, NIS2, HIPAA y la nueva EU AI Act.4  
   * **Insider Risk Management (Riesgos Internos):** Análisis inteligente de comportamientos internos inusuales (descargas masivas de archivos, accesos fuera de horarios o intentos de saltar controles de acceso).4  
@@ -91,7 +91,7 @@
 ### **Diapositiva 9: El Caso de Negocio: Retorno de Inversión (ROI)**
 
 * **Título de la Diapositiva:** Retorno de Inversión y Eficiencia de Microsoft Purview  
-* **Diseño Visual Sugerido:** Gráfico de barras horizontales destacando las reducciones porcentuales de tiempo y riesgos obtenidas en el mercado real según informes independientes.2  
+
 * **Contenido Clave (Métricas de Impacto de Forrester Consulting):**  
   * **Disminución de Brechas de Seguridad:** Reducción del **30%** en la probabilidad de sufrir incidentes de seguridad y fugas de datos.2  
   * **Ahorro de Tiempo en SecOps:** Reducción del **75%** en el tiempo de investigación de incidentes forenses y riesgos.2  
@@ -103,7 +103,7 @@
 ### **Diapositiva 10: Caso de Uso Real 1 \- Firma de Servicios Profesionales**
 
 * **Título de la Diapositiva:** Caso de Éxito: Blindaje de Propiedad Intelectual en Servicios Profesionales  
-* **Diseño Visual Sugerido:** Estructura tipo ficha técnica de caso: Desafío, Solución e Impacto. Foto corporativa de oficina y flujo de datos.  
+
 * **Detalles del Caso:**  
   * **Perfil del Cliente:** Firma de servicios profesionales de tamaño mediano (85 empleados) que gestiona documentación de clientes altamente sensible.5  
   * **Desafío:** Archivos confidenciales dispersos sin categorizar en SharePoint, OneDrive y bandejas de correo electrónico. Temor corporativo al uso de herramientas públicas de IA generativa por parte de consultores.5  
@@ -115,7 +115,7 @@
 ### **Diapositiva 11: Caso de Uso Real 2 \- Operador de Infraestructura Crítica**
 
 * **Título de la Diapositiva:** Caso de Éxito: Seguridad en un Gran Grupo Portuario  
-* **Diseño Visual Sugerido:** Ilustración de un muelle de contenedores marítimos o transporte de mercancías a gran escala con un candado digital sobrevolando el mapa de puertos.  
+
 * **Detalles del Caso:**  
   * **Perfil del Cliente:** Uno de los operadores portuarios más grandes del Reino Unido, responsable de la gestión de decenas de millones de toneladas de carga.10  
   * **Desafío:** Necesidad de garantizar la confidencialidad de la información operativa de la cadena de suministro global y el cumplimiento estricto con las regulaciones de infraestructura nacional crítica sin mermar la agilidad de los flujos de trabajo diarios.10  
@@ -127,7 +127,7 @@
 ### **Diapositiva 12: Caso de Uso Real 3 \- Sector Salud y Farmacéutico**
 
 * **Título de la Diapositiva:** Caso de Éxito: Confidencialidad y Cumplimiento de Datos Médicos  
-* **Diseño Visual Sugerido:** Icono de un hospital o expediente médico con el sello de "Datos Protegidos \- GDPR Artículo 9 y HIPAA".4  
+
 * **Detalles del Caso:**  
   * **Perfil del Cliente:** Red de hospitales y laboratorios clínicos que manejan datos biométricos, genéticos e historiales de salud altamente regulados.5  
   * **Desafío:** Garantizar la confidencialidad absoluta del paciente para cumplir con el Artículo 9 del GDPR y HIPAA, evitando filtraciones masivas de datos de salud, pero permitiendo que el personal médico acceda a la información necesaria para decisiones clínicas.5  
@@ -139,7 +139,7 @@
 ### **Diapositiva 13: Caso de Uso Real 4 \- Sector Industrial y Manufactura**
 
 * **Título de la Diapositiva:** Caso de Éxito: Protección de Propiedad Intelectual y Linaje de Datos  
-* **Diseño Visual Sugerido:** Ilustración de una línea de ensamblaje industrial moderna que se integra con una red de servidores locales y en la nube de Microsoft Fabric.6  
+
 * **Detalles del Caso:**  
   * **Perfil del Cliente:** Empresa multinacional de manufactura avanzada con un ecosistema complejo de patentes, diseños y planos de producción distribuidos globalmente.6  
   * **Desafío:** Riesgo de pérdida o robo de propiedad intelectual (planos de ingeniería CAD, recetas de producción) y falta de visibilidad sobre la calidad y el linaje de los datos analíticos integrados para tomar decisiones comerciales estratégicas.6  
@@ -151,7 +151,7 @@
 ### **Diapositiva 14: Recomendaciones de Implementación y Hoja de Ruta**
 
 * **Título de la Diapositiva:** Buenas Prácticas Técnicas para el Éxito del Proyecto  
-* **Diseño Visual Sugerido:** Línea de tiempo o diagrama de flujo con cuatro hitos clave para la implementación de gobernanza.  
+
 * **Contenido Clave:**  
   * **Estructurar Permisos mediante Colecciones:** Delegar responsabilidades organizativas de forma jerárquica a través de Colecciones en lugar de asociar accesos de escaneo a grupos de usuarios de Entra ID.7  
   * **Despliegues en Redes Privadas (Private Endpoints):** Utilizar enlaces de conexión privados para el rastreo y escaneo seguro de orígenes de datos altamente regulados.7  
@@ -163,7 +163,7 @@
 ### **Diapositiva 15: Conclusiones y Cierre**
 
 * **Título de la Diapositiva:** El Futuro de la Gobernanza con Microsoft Purview  
-* **Diseño Visual Sugerido:** Imagen inspiracional y futurista de un profesional utilizando análisis de datos seguro con Microsoft Copilot.  
+
 * **Contenido Clave:**  
   * **Convergencia Tecnológica:** Centralizar la gobernanza, seguridad y cumplimiento evita vacíos normativos y optimiza costes operativos.2  
   * **Habilitador del Crecimiento en IA:** Purview no actúa como un freno operativo; es el habilitador necesario para adoptar la Inteligencia Artificial con confianza organizativa total.1  
