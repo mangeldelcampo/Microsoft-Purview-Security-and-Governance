@@ -49,10 +49,9 @@
 * **Diseño Visual Sugerido:** Gráfica lineal que muestre un pico de demanda en operaciones por segundo y almacenamiento de metadatos, correlacionando el escalado elástico con el consumo de unidades de capacidad (CUs).9 Incluir de forma destacada la fórmula matemática de asignación.  
 * **Contenido Clave:**  
   * **Escalado Dinámico:** El Data Map se factura mediante un modelo de pago por uso medido en Capacity Units (CU).  
-  * **Fórmula de Asignación por Hora:**  
-    ![][image1]  
-    Donde ![][image2] es el rendimiento de operaciones por segundo máximo alcanzado en la hora y ![][image3] es el volumen de metadatos almacenado expresado en gigabytes (GB).9  
-  * **Capacidad de una CU Base:** Cada CU provee un rendimiento de hasta ![][image4] y un límite de almacenamiento de metadatos de ![][image5].9  
+  * **Fórmula de Asignación por Hora:**   $$\text{CUs por hora} = \max\left(\left\lceil \frac{O}{25} \right\rceil, \left\lceil \frac{S}{10} \right\rceil\right)$$
+    Donde $O$ es el rendimiento de operaciones por segundo máximo alcanzado en la hora y $S$ es el volumen de metadatos almacenado expresado en gigabytes (GB).9  
+  * **Capacidad de una CU Base:** Cada CU provee un rendimiento de hasta $25\text{ operaciones/segundo}$ y un límite de almacenamiento de metadatos de $10\text{ GB}$..9  
 * **Notas de Orador (Speaker Notes):**"El coste del Data Map es altamente predecible y elástico.9 El sistema inicia por defecto con 1 Unidad de Capacidad (CU).9 Si durante procesos de escaneo intensivo o consultas recurrentes del catálogo superamos las 25 operaciones por segundo o acumulamos más de 10 GB de metadatos, Purview escalará elásticamente en incrementos exactos.9 Como vemos en la fórmula, la facturación por hora se determina por el valor limitante más alto entre el volumen de transacciones de metadatos o la capacidad física de almacenamiento que ocupan dichos metadatos.9"
 
 
