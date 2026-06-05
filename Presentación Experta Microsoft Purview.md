@@ -18,7 +18,7 @@
   * **La Brecha de Visibilidad:** Es imposible proteger aquello que no se sabe que existe.1 Las organizaciones desconocen dónde se almacenan sus datos confidenciales.1  
   * **El Acelerador de la IA Generativa:** La proliferación de herramientas de IA incrementa exponencialmente el riesgo de sobrecompartición y fugas de propiedad intelectual.1  
 * **Notas de Orador (Speaker Notes):**"El crecimiento exponencial de la información ha creado un panorama fragmentado.1 La TI híbrida y multinube ha diluido las fronteras tradicionales de la red de la empresa.4 Además, los equipos de trabajo están utilizando de forma autónoma modelos de IA generativa pública, lo que expone datos corporativos a la fuga de patentes o información privada de clientes.5 El problema crítico de hoy no es solo recopilar datos, sino saber exactamente qué datos tenemos, dónde residen y quién accede a ellos.1"
-![Diapositiva 2](imagenes/diapositiva2.jpg)
+![Diapositiva 2](imagenes/Diapositiva2.png)
 ### **Diapositiva 3: La Propuesta de Microsoft Purview**
 
 * **Título de la Diapositiva:** Microsoft Purview: Tres Pilares en una Plataforma Única  
