@@ -5,7 +5,7 @@
 ### Diapositiva 1: Microsoft Purview: Seguridad, Gobernanza y Cumplimiento de Datos en la Era de la IA 
 
 ![Diapositiva 1](Imagenes/Diapositiva1.png)
-* **Notas de Orador (Speaker Notes):**"Bienvenidos a la presentación sobre Microsoft Purview. En esta sesión analizaremos cómo el patrimonio de datos de nuestra organización, expuesto a una dispersión masiva y acelerado por la adopción de herramientas de Inteligencia Artificial, puede gestionarse mediante una plataforma única.1 Veremos cómo Purview unifica lo que tradicionalmente funcionaba en silos: la seguridad del dato, la gobernanza corporativa y el cumplimiento normativo legal.1 El objetivo de hoy es entender la arquitectura de esta solución, sus ventajas técnicas y cómo aplicarla en escenarios reales del mercado.3"
+* "Bienvenidos a la presentación sobre Microsoft Purview. En esta sesión analizaremos cómo el patrimonio de datos de nuestra organización, expuesto a una dispersión masiva y acelerado por la adopción de herramientas de Inteligencia Artificial, puede gestionarse mediante una plataforma única.1 Veremos cómo Purview unifica lo que tradicionalmente funcionaba en silos: la seguridad del dato, la gobernanza corporativa y el cumplimiento normativo legal.1 El objetivo de hoy es entender la arquitectura de esta solución, sus ventajas técnicas y cómo aplicarla en escenarios reales del mercado.3"
 
 
 ### **Diapositiva 2: El Desafío de los Datos Modernos**
@@ -13,23 +13,25 @@
   
 ![Diapositiva 2](Imagenes/Diapositiva2.png)
 
-* "El crecimiento exponencial de la información ha creado un panorama fragmentado.1 La TI híbrida y multinube ha diluido las fronteras tradicionales de la red de la empresa.4 Además, los equipos de trabajo están utilizando de forma autónoma modelos de IA generativa pública, lo que expone datos corporativos a la fuga de patentes o información privada de clientes.5 El problema crítico de hoy no es solo recopilar datos, sino saber exactamente qué datos tenemos, dónde residen y quién accede a ellos.1"
+  * *"El crecimiento exponencial de la información ha creado un panorama fragmentado.1 La TI híbrida y multinube ha diluido las fronteras tradicionales de la red de la empresa.4 Además, los equipos de trabajo están utilizando de forma autónoma modelos de IA generativa pública, lo que expone datos corporativos a la fuga de patentes o información privada de clientes.5 El problema crítico de hoy no es solo recopilar datos, sino saber exactamente qué datos tenemos, dónde residen y quién accede a ellos.1"*
 
 * **Contenido Clave:**  
   * **Ecosistema Multinube Fragmentado:** Los datos residen en nubes públicas, sistemas locales, plataformas analíticas como Snowflake y herramientas SaaS.4  
   * **La Brecha de Visibilidad:** Es imposible proteger aquello que no se sabe que existe.1 Las organizaciones desconocen dónde se almacenan sus datos confidenciales.1  
-  * **El Acelerador de la IA Generativa:** La proliferación de herramientas de IA incrementa exponencialmente el riesgo de sobrecompartición y fugas de propiedad intelectual.1  
+  * **El Acelerador de la IA Generativa:** La proliferación de herramientas de IA incrementa exponencialmente el riesgo de sobrecompartición y fugas de propiedad intelectual.1 
+
 
 ### **Diapositiva 3: La Propuesta de Microsoft Purview**
 
 * **Título de la Diapositiva:** Microsoft Purview: Tres Pilares en una Plataforma Única  
 
 ![Diapositiva 3](Imagenes/Diapositiva3.png)
+
+* *"Microsoft Purview consolida bajo una misma interfaz de administración (el Portal unificado de Purview) tres áreas operativas críticas. Anteriormente, los equipos de TI utilizaban una herramienta de catálogo para gobernanza, otra suite para prevención de fugas de datos (DLP) y consultorías externas para auditorías de cumplimiento. Purview integra estas tres disciplinas sobre una base de datos común de metadatos, garantizando que una clasificación de seguridad afecte inmediatamente a las políticas de acceso y a los reportes de cumplimiento normativo.7"*
 * **Contenido Clave:**  
   * **Gobernanza de Datos (Data Governance):** Habilita el descubrimiento y el entendimiento del contexto comercial e histórico de los datos.6  
   * **Seguridad de Datos (Data Security):** Protege los datos confidenciales de forma activa en tránsito, en reposo y en uso.  
   * **Cumplimiento de Datos (Data Compliance):** Automatiza el cumplimiento de regulaciones internacionales y minimiza riesgos legales.  
-* **Notas de Orador (Speaker Notes):**"Microsoft Purview consolida bajo una misma interfaz de administración (el Portal unificado de Purview) tres áreas operativas críticas. Anteriormente, los equipos de TI utilizaban una herramienta de catálogo para gobernanza, otra suite para prevención de fugas de datos (DLP) y consultorías externas para auditorías de cumplimiento. Purview integra estas tres disciplinas sobre una base de datos común de metadatos, garantizando que una clasificación de seguridad afecte inmediatamente a las políticas de acceso y a los reportes de cumplimiento normativo.7"
 
 
 ### **Diapositiva 4: Pilar 1 \- Gobernanza Técnica y de Negocio**
@@ -40,7 +42,7 @@
   * **Data Map (La Capa Física):** Escanea de forma automática los activos de datos corporativos, extrayendo metadatos técnicos y mapeando el linaje de datos sin copiar el contenido real.8  
   * **Unified Catalog (La Capa de Negocio):** Traduce los activos físicos en "Productos de Datos" comprensibles y accesibles para los usuarios empresariales bajo demanda.  
   * **Linaje de Datos (Data Lineage):** Mapeo de extremo a extremo que muestra visualmente de dónde proviene un dato, cómo se ha transformado y dónde se consume.8  
-* **Notas de Orador (Speaker Notes):**"El corazón tecnológico de la gobernanza en Purview reside en la separación de dos capas críticas.8 Por un lado, el Data Map es un motor que actúa a nivel de infraestructura, conectando mediante APIs o redes privadas a nuestros orígenes de datos locales o multinube para recopilar metadatos.8 No duplica nuestros archivos; solo lee esquemas, nombres de columnas e información de linaje.8 Por encima de esto, el Unified Catalog expone esta información técnica en un lenguaje comercial.8 El usuario de finanzas no necesita saber en qué base de datos física reside una columna; solo busca el Producto de Datos de 'Ventas Globales' a través de un buscador de autoservicio guiado por permisos de acceso seguros."
+* *"El corazón tecnológico de la gobernanza en Purview reside en la separación de dos capas críticas.8 Por un lado, el Data Map es un motor que actúa a nivel de infraestructura, conectando mediante APIs o redes privadas a nuestros orígenes de datos locales o multinube para recopilar metadatos.8 No duplica nuestros archivos; solo lee esquemas, nombres de columnas e información de linaje.8 Por encima de esto, el Unified Catalog expone esta información técnica en un lenguaje comercial.8 El usuario de finanzas no necesita saber en qué base de datos física reside una columna; solo busca el Producto de Datos de 'Ventas Globales' a través de un buscador de autoservicio guiado por permisos de acceso seguros."*
 
 
 ### **Diapositiva 5: Zoom Técnico \- Elasticidad y Cálculo de Capacidad (CUs)**
@@ -52,7 +54,7 @@
   * **Fórmula de Asignación por Hora:**   $$\text{CUs por hora} = \max\left(\left\lceil \frac{O}{25} \right\rceil, \left\lceil \frac{S}{10} \right\rceil\right)$$
     Donde $O$ es el rendimiento de operaciones por segundo máximo alcanzado en la hora y $S$ es el volumen de metadatos almacenado expresado en gigabytes (GB).9  
   * **Capacidad de una CU Base:** Cada CU provee un rendimiento de hasta $25\text{ operaciones/segundo}$ y un límite de almacenamiento de metadatos de $10\text{ GB}$..9  
-* **Notas de Orador (Speaker Notes):**"El coste del Data Map es altamente predecible y elástico.9 El sistema inicia por defecto con 1 Unidad de Capacidad (CU).9 Si durante procesos de escaneo intensivo o consultas recurrentes del catálogo superamos las 25 operaciones por segundo o acumulamos más de 10 GB de metadatos, Purview escalará elásticamente en incrementos exactos.9 Como vemos en la fórmula, la facturación por hora se determina por el valor limitante más alto entre el volumen de transacciones de metadatos o la capacidad física de almacenamiento que ocupan dichos metadatos.9"
+* *"El coste del Data Map es altamente predecible y elástico.9 El sistema inicia por defecto con 1 Unidad de Capacidad (CU).9 Si durante procesos de escaneo intensivo o consultas recurrentes del catálogo superamos las 25 operaciones por segundo o acumulamos más de 10 GB de metadatos, Purview escalará elásticamente en incrementos exactos.9 Como vemos en la fórmula, la facturación por hora se determina por el valor limitante más alto entre el volumen de transacciones de metadatos o la capacidad física de almacenamiento que ocupan dichos metadatos.9"*
 
 
 ### **Diapositiva 6: Pilar 2 \- Seguridad de Datos (Data Security)**
@@ -63,7 +65,7 @@
   * **Sensitivity Labels (Etiquetas de Sensibilidad):** Clasificación jerárquica de la información (p. ej., Público, Confidencial) aplicada automáticamente o sugerida a los usuarios.4  
   * **Cifrado Persistente:** El cifrado de seguridad se inyecta directamente dentro de los metadatos del archivo. La protección viaja con el documento incluso si se comparte fuera de los repositorios corporativos.4  
   * **Data Security Posture Management (DSPM):** Centraliza la visibilidad de los riesgos y evalúa continuamente la exposición de información sensible en entornos tradicionales e híbridos de IA.  
-* **Notas de Orador (Speaker Notes):**"En el área de seguridad de datos, Purview ofrece un cambio de paradigma paradigmático: la protección que viaja con el dato.4 Tradicionalmente, la seguridad dependía de carpetas compartidas con permisos específicos; si alguien descargaba el archivo y lo enviaba por correo, la seguridad se rompía. Con Purview Information Protection, el archivo en sí es cifrado a nivel criptográfico.4 Aunque un empleado lo extraiga de SharePoint y lo guarde en un disco externo, el documento exigirá autenticación contra Microsoft Entra ID antes de poder abrirse o editarse, respetando las políticas originales de la organización.7"
+* *"En el área de seguridad de datos, Purview ofrece un cambio de paradigma paradigmático: la protección que viaja con el dato.4 Tradicionalmente, la seguridad dependía de carpetas compartidas con permisos específicos; si alguien descargaba el archivo y lo enviaba por correo, la seguridad se rompía. Con Purview Information Protection, el archivo en sí es cifrado a nivel criptográfico.4 Aunque un empleado lo extraiga de SharePoint y lo guarde en un disco externo, el documento exigirá autenticación contra Microsoft Entra ID antes de poder abrirse o editarse, respetando las políticas originales de la organización.7"*
 
 
 ### **Diapositiva 7: Protección de Datos frente a la IA Generativa**
@@ -74,7 +76,7 @@
   * **Control de Fugas de Información en IA:** Purview evita de forma proactiva que información clasificada como confidencial sea copiada o expuesta en motores de IA generativa públicos de terceros (como ChatGPT web).  
   * **Gobernanza de Datos para Copilot:** Garantiza que los modelos de IA corporativos (como Microsoft 365 Copilot) solo tengan acceso a datos que el usuario solicitante tiene autorización explícita para ver, evitando la sobrecompartición accidental.  
   * **Clasificadores Inteligentes Entrenables:** El motor de IA de Purview aprende de manera autónoma los patrones específicos de contratos, patentes o códigos de la organización.7  
-* **Notas de Orador (Speaker Notes):***"Uno de los mayores temores de los directores de seguridad de la información (CISOs) hoy en día es que los empleados peguen código fuente propietario, planes financieros o información de clientes en herramientas de IA externas para resumir o traducir textos. Con Purview, podemos configurar políticas de Endpoint DLP (Prevención de pérdida de datos en el dispositivo final). Si un usuario intenta copiar texto de un documento confidencial y pegarlo en ChatGPT, el sistema bloquea la acción al instante y emite una alerta de riesgo al centro de seguridad."*
+* *"Uno de los mayores temores de los directores de seguridad de la información (CISOs) hoy en día es que los empleados peguen código fuente propietario, planes financieros o información de clientes en herramientas de IA externas para resumir o traducir textos. Con Purview, podemos configurar políticas de Endpoint DLP (Prevención de pérdida de datos en el dispositivo final). Si un usuario intenta copiar texto de un documento confidencial y pegarlo en ChatGPT, el sistema bloquea la acción al instante y emite una alerta de riesgo al centro de seguridad."*
 
 
 ### **Diapositiva 8: Pilar 3 \- Cumplimiento y Gestión del Riesgo**
