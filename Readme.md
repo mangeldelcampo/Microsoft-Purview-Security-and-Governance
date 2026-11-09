@@ -36,7 +36,8 @@
 
 ### **Pilar 1 \- Gobernanza Técnica y de Negocio**
 
-* **4. Arquitectura del Gobierno de Datos: Data Map vs. Unified Catalog**   
+* **4. Arquitectura del Gobierno de Datos: Data Map vs. Unified Catalog**
+   
 ![Diapositiva 4](Imagenes/Diapositiva4.png)
 * **Contenido Clave:**  
   * **Data Map (La Capa Física):** Escanea de forma automática los activos de datos corporativos, extrayendo metadatos técnicos y mapeando el linaje de datos sin copiar el contenido real.8  
@@ -47,7 +48,8 @@
 
 ### **Zoom Técnico \- Elasticidad y Cálculo de Capacidad (CUs)**
 
-* **5. Rendimiento y Costes del Data Map**   
+* **5. Rendimiento y Costes del Data Map**
+
 ![Diapositiva 5](Imagenes/Diapositiva5.png)
 * **Contenido Clave:**  
   * **Escalado Dinámico:** El Data Map se factura mediante un modelo de pago por uso medido en Capacity Units (CU).  
@@ -59,7 +61,8 @@
 
 ### ** Pilar 2 \- Seguridad de Datos (Data Security)**
 
-* **6. Seguridad Inteligente: Information Protection y DSPM**  
+* **6. Seguridad Inteligente: Information Protection y DSPM**
+
 ![Diapositiva 6](Imagenes/Diapositiva6.png)
 * **Contenido Clave:**  
   * **Sensitivity Labels (Etiquetas de Sensibilidad):** Clasificación jerárquica de la información (p. ej., Público, Confidencial) aplicada automáticamente o sugerida a los usuarios.4  
@@ -70,7 +73,8 @@
 
 ### **Protección de Datos frente a la IA Generativa**
 
-* **7. Mitigación de Riesgos en la Era de Copilot e IA de Terceros**   
+* **7. Mitigación de Riesgos en la Era de Copilot e IA de Terceros**
+
 ![Diapositiva 7](Imagenes/Diapositiva7.png)
 * **Contenido Clave:**  
   * **Control de Fugas de Información en IA:** Purview evita de forma proactiva que información clasificada como confidencial sea copiada o expuesta en motores de IA generativa públicos de terceros (como ChatGPT web).  
@@ -81,7 +85,8 @@
 
 ### **Pilar 3 \- Cumplimiento y Gestión del Riesgo**
 
-* **8. Minimización de Riesgos Regulatorios y Compliance Manager**   
+* **8. Minimización de Riesgos Regulatorios y Compliance Manager**
+
 ![Diapositiva 8](Imagenes/Diapositiva8.png)
 * **Contenido Clave:**  
   * **Compliance Manager:** Evaluación continua del estado tecnológico frente a más de 350 normativas, como GDPR, ISO 27001, NIS2, HIPAA y la nueva EU AI Act.4  
@@ -92,7 +97,8 @@
 
 ### **El Caso de Negocio: Retorno de Inversión (ROI)**
 
-* **9 Retorno de Inversión y Eficiencia de Microsoft Purview**   
+* **9 Retorno de Inversión y Eficiencia de Microsoft Purview**
+
 ![Diapositiva 9](Imagenes/Diapositiva9.png)
 * **Contenido Clave (Métricas de Impacto de Forrester Consulting):**  
   * **Disminución de Brechas de Seguridad:** Reducción del **30%** en la probabilidad de sufrir incidentes de seguridad y fugas de datos.2  
@@ -104,7 +110,8 @@
 
 ### **Caso de Uso Real 1 \- Firma de Servicios Profesionales**
 
-* **10. Caso de Éxito: Blindaje de Propiedad Intelectual en Servicios Profesionales**   
+* **10. Caso de Éxito: Blindaje de Propiedad Intelectual en Servicios Profesionales**
+
 ![Diapositiva 10](Imagenes/Diapositiva10.png)
 * **Detalles del Caso:**  
   * **Perfil del Cliente:** Firma de servicios profesionales de tamaño mediano (85 empleados) que gestiona documentación de clientes altamente sensible.5  
@@ -116,7 +123,8 @@
 
 ### **Caso de Uso Real 2 \- Operador de Infraestructura Crítica**
 
-* **11. Caso de Éxito: Seguridad en un Gran Grupo Portuario**   
+* **11. Caso de Éxito: Seguridad en un Gran Grupo Portuario**
+
 ![Diapositiva 11](Imagenes/Diapositiva11.png)
 * **Detalles del Caso:**  
   * **Perfil del Cliente:** Uno de los operadores portuarios más grandes del Reino Unido, responsable de la gestión de decenas de millones de toneladas de carga.10  
@@ -128,7 +136,8 @@
 
 ### **Caso de Uso Real 3 \- Sector Salud y Farmacéutico**
 
-* **12. Caso de Éxito: Confidencialidad y Cumplimiento de Datos Médicos**  
+* **12. Caso de Éxito: Confidencialidad y Cumplimiento de Datos Médicos**
+
 ![Diapositiva 11](Imagenes/Diapositiva11.png)
 * **Detalles del Caso:**  
   * **Perfil del Cliente:** Red de hospitales y laboratorios clínicos que manejan datos biométricos, genéticos e historiales de salud altamente regulados.5  
@@ -140,7 +149,8 @@
 
 ### **Caso de Uso Real 4 \- Sector Industrial y Manufactura**
 
-* **13.Caso de Éxito: Protección de Propiedad Intelectual y Linaje de Datos**   
+* **13.Caso de Éxito: Protección de Propiedad Intelectual y Linaje de Datos**
+
 ![Diapositiva 11](Imagenes/Diapositiva11.png)
 * **Detalles del Caso:**  
   * **Perfil del Cliente:** Empresa multinacional de manufactura avanzada con un ecosistema complejo de patentes, diseños y planos de producción distribuidos globalmente.6  
@@ -152,7 +162,8 @@
 
 ### **Recomendaciones de Implementación y Hoja de Ruta**
 
-* **14.Buenas Prácticas Técnicas para el Éxito del Proyecto**   
+* **14.Buenas Prácticas Técnicas para el Éxito del Proyecto**
+
 ![Diapositiva 11](Imagenes/Diapositiva11.png)
 * **Contenido Clave:**  
   * **Estructurar Permisos mediante Colecciones:** Delegar responsabilidades organizativas de forma jerárquica a través de Colecciones en lugar de asociar accesos de escaneo a grupos de usuarios de Entra ID.7  
@@ -164,7 +175,8 @@
 
 ### **Conclusiones y Cierre**
 
-* **15. El Futuro de la Gobernanza con Microsoft Purview**   
+* **15. El Futuro de la Gobernanza con Microsoft Purview**
+
 ![Diapositiva 15](Imagenes/Diapositiva15.png)
 * **Contenido Clave:**  
   * **Convergencia Tecnológica:** Centralizar la gobernanza, seguridad y cumplimiento evita vacíos normativos y optimiza costes operativos.2  
