@@ -2,7 +2,7 @@
 
 ## **Guía Maestra para Presentación Corporativa (Slide-by-Slide Master Blueprint)**
 
-### **Diapositiva 1: Microsoft Purview: Seguridad, Gobernanza y Cumplimiento de Datos en la Era de la IA **
+### Diapositiva 1: Microsoft Purview: Seguridad, Gobernanza y Cumplimiento de Datos en la Era de la IA 
 
 ![Diapositiva 1](Imagenes/Diapositiva1.png)
 * **Notas de Orador (Speaker Notes):**"Bienvenidos a la presentación sobre Microsoft Purview. En esta sesión analizaremos cómo el patrimonio de datos de nuestra organización, expuesto a una dispersión masiva y acelerado por la adopción de herramientas de Inteligencia Artificial, puede gestionarse mediante una plataforma única.1 Veremos cómo Purview unifica lo que tradicionalmente funcionaba en silos: la seguridad del dato, la gobernanza corporativa y el cumplimiento normativo legal.1 El objetivo de hoy es entender la arquitectura de esta solución, sus ventajas técnicas y cómo aplicarla en escenarios reales del mercado.3"
